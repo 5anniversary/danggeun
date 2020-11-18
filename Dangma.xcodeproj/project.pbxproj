@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15C823C2563E04F008200BE /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D173637D255F9EAA00226E21 /* Detail.storyboard */; };
 		D173637A255F9E7700226E21 /* DetailViewController+Contraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1736379255F9E7700226E21 /* DetailViewController+Contraint.swift */; };
-		D1736381255FC27D00226E21 /* BannerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1736380255FC27D00226E21 /* BannerCVCell.swift */; };
+		D1B3A94125645CF00076DE29 /* DetailCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B3A94025645CF00076DE29 /* DetailCVCell.swift */; };
 		D1C08F9B255F89140097D848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C08F9A255F89140097D848 /* AppDelegate.swift */; };
 		D1C08F9D255F89140097D848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C08F9C255F89140097D848 /* SceneDelegate.swift */; };
 		D1C08F9F255F89140097D848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C08F9E255F89140097D848 /* ViewController.swift */; };
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		D1736379255F9E7700226E21 /* DetailViewController+Contraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Contraint.swift"; sourceTree = "<group>"; };
 		D173637D255F9EAA00226E21 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
-		D1736380255FC27D00226E21 /* BannerCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCVCell.swift; sourceTree = "<group>"; };
+		D1B3A94025645CF00076DE29 /* DetailCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCVCell.swift; sourceTree = "<group>"; };
 		D1C08F97255F89140097D848 /* Dangma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dangma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C08F9A255F89140097D848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C08F9C255F89140097D848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,7 +192,7 @@
 		D1C08FB8255F8D9C0097D848 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				D1736380255FC27D00226E21 /* BannerCVCell.swift */,
+				D1B3A94025645CF00076DE29 /* DetailCVCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -333,6 +334,7 @@
 				D1C08FA7255F89170097D848 /* LaunchScreen.storyboard in Resources */,
 				D1D264612563C0590072F6B1 /* SF-Pro-Display-Bold.otf in Resources */,
 				D1D264672563C0600072F6B1 /* SF-Pro-Display-Regular.otf in Resources */,
+				D15C823C2563E04F008200BE /* Detail.storyboard in Resources */,
 				D1C08FA4255F89170097D848 /* Assets.xcassets in Resources */,
 				D1C08FA2255F89140097D848 /* Main.storyboard in Resources */,
 				D1D26453255F978A0072F6B1 /* HomeCollectionViewCell.xib in Resources */,
@@ -362,8 +364,8 @@
 				D1C08FE8255F94BF0097D848 /* UICollectionViewCell+.swift in Sources */,
 				D1C08FC4255F8E060097D848 /* Model.swift in Sources */,
 				D1C08FE5255F94A60097D848 /* UICollectionView+.swift in Sources */,
-				D1736381255FC27D00226E21 /* BannerCVCell.swift in Sources */,
 				D173637A255F9E7700226E21 /* DetailViewController+Contraint.swift in Sources */,
+				D1B3A94125645CF00076DE29 /* DetailCVCell.swift in Sources */,
 				D1C08FEB255F94E10097D848 /* UITableView.swift in Sources */,
 				D1C08FF3255F96350097D848 /* DetailViewController.swift in Sources */,
 			);
